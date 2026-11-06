@@ -1,0 +1,5 @@
+signal_id,signal_date,signal_type,organization_name,description,source,source_quality
+SIG-001,2026-02-04,Budget / Board Action,Maple Grove Public Schools,Board agenda includes proposed adoption of a new assessment platform for FY27,Board Agenda,High
+SIG-002,2026-02-07,RFP,Pine Ridge Unified School District,RFP for formative assessment and intervention; responses due 2026-03-15,State Bid Portal,High
+SIG-003,2026-02-02,Funding,Westfield School District,IDEA allocation notice published,State Education Agency,Medium
+SIG-004,2026-02-10,Leadership Change,Westfield SD,New interim superintendent appointed,District Website,Low

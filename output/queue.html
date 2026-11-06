@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Handoff review queue</title>
+<style>
+ body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;padding:0 16px;color:#101828}
+ h1{font-size:22px;margin-bottom:4px} .sub{color:#475467;margin-top:0}
+ .card{border:1px solid #d0d5dd;border-radius:8px;padding:12px 16px;margin:12px 0}
+ .top{display:flex;gap:10px;align-items:center} .amount{margin-left:auto;color:#475467}
+ .status{color:#fff;border-radius:4px;padding:2px 8px;font-size:13px}
+ .meta{color:#475467;font-size:13px} li{margin:4px 0;font-size:14px}
+</style></head><body>
+<h1>Handoff review queue</h1>
+<p class="sub">As of 2026-02-10 · Blocked: 2 · Needs Review: 2 · Not Yet Eligible: 1 · Ready: 1 · Synthetic data</p>
+
+<section class="card">
+  <div class="top">
+    <span class="status" style="background:#b42318">Blocked</span>
+    <strong>OPP-002 · Pine Ridge Unified School District</strong>
+    <span class="amount">$72,000</span>
+  </div>
+  <p><b>Next action (Deal Operations):</b> Confirm which discount was actually approved, then get the quote approved before building the order. Then: Check the note against the quote with Finance before changing the discount.</p>
+  <p class="meta">Confidence: High · Review: Pending review ·
+     Checks: B1; R2; W1; W5; W6; W7; W8</p>
+  <ul><li>R2: note says 18% approved (&quot;CFO approved an 18% discount.&quot;), quote shows 25%.</li><li>W1: quote expires 2026-02-10.</li><li>W5: Marcus Lee last verified 2024-04-01; re-verify.</li><li>W6: Superintendent Marcus Lee is filed under Pine Ridge Middle School, but the title is district-level.</li><li>W7: contact Marcus Lee has the same name as a sales rep; confirm the contact.</li><li>W8: RFP on 2026-02-07 (State Bid Portal, High quality, High match): RFP for formative assessment and intervention; responses due 2026-03-15. Came after close_date.</li></ul>
+</section>
+<section class="card">
+  <div class="top">
+    <span class="status" style="background:#b42318">Blocked</span>
+    <strong>OPP-004 · Lakeview School District</strong>
+    <span class="amount">$38,000</span>
+  </div>
+  <p><b>Next action (Deal Operations):</b> Confirm the quote is still valid or issue a new quote. Then: Confirm the legal billing name and fill in billing_entity.</p>
+  <p class="meta">Confidence: High · Review: Pending review ·
+     Checks: B2; B3; W2; W6; W9</p>
+  <ul><li>W2: implementation starts 2026-02-20 and no order exists.</li><li>W6: Chief Academic Officer Jamal Ortiz is filed under Lakeview Elementary School, but the title is district-level.</li><li>W9: note suggests billing &quot;district finance office&quot; (&quot;Invoice should go to the district finance office.&quot;); a person must confirm the legal name.</li></ul>
+</section>
+<section class="card">
+  <div class="top">
+    <span class="status" style="background:#b54708">Needs Review</span>
+    <strong>OPP-005 · North Valley School District</strong>
+    <span class="amount">$91,000</span>
+  </div>
+  <p><b>Next action (Deal Operations):</b> Confirm whether both orders are needed; if not, cancel the duplicate.</p>
+  <p class="meta">Confidence: High · Review: Pending review ·
+     Checks: R1; W1; W4</p>
+  <ul><li>W1: quote expires 2026-02-15.</li><li>W4: district not found in account_directory.</li></ul>
+</section>
+<section class="card">
+  <div class="top">
+    <span class="status" style="background:#b54708">Needs Review</span>
+    <strong>OPP-006 · Cedar Falls Public Schools</strong>
+    <span class="amount">$45,000</span>
+  </div>
+  <p><b>Next action (Deal Operations):</b> Add the missing product to the order or confirm it ships separately.</p>
+  <p class="meta">Confidence: Medium · Review: Pending review ·
+     Checks: R3; W4</p>
+  <ul><li>R3: note mentions &quot;intervention kit SKU IK-2&quot; (&quot;intervention kit SKU IK-2&quot;), not on any order.</li><li>W4: district not found in account_directory.</li></ul>
+</section>
+<section class="card">
+  <div class="top">
+    <span class="status" style="background:#475467">Not Yet Eligible</span>
+    <strong>OPP-003 · Westfield School District</strong>
+    <span class="amount">$61,000</span>
+  </div>
+  <p><b>Next action (Sarah Kim):</b> Do not start the order. The rep updates the stage once the contract is signed.</p>
+  <p class="meta">Confidence: High · Review: Not needed ·
+     Checks: E1; W3; W6; W7; W8; W9</p>
+  <ul><li>W3: close_date 2026-02-01 has passed but stage is Contract Sent.</li><li>W6: Director of Special Education Sarah Kim is filed under Westfield Intermediate School, but the title is district-level.</li><li>W7: contact Sarah Kim has the same name as a sales rep; confirm the contact.</li><li>W8: Funding on 2026-02-02 (State Education Agency, Medium quality, High match): IDEA allocation notice published. Came after close_date.</li><li>W8: Leadership Change on 2026-02-10 (District Website, Low quality, Medium match): New interim superintendent appointed. &quot;Westfield SD&quot; matches &quot;Westfield School District&quot; after cleaning the name. Came after close_date.</li><li>W9: note asks to start work (&quot;Please start fulfillment planning.&quot;) but stage is Contract Sent.</li></ul>
+</section>
+<section class="card">
+  <div class="top">
+    <span class="status" style="background:#067647">Ready</span>
+    <strong>OPP-001 · Maple Grove Public Schools</strong>
+    <span class="amount">$48,500</span>
+  </div>
+  <p><b>Next action (Deal Operations):</b> Order already exists: ORD-7001 (Pending PO, Assessment licenses). Continue normal processing.</p>
+  <p class="meta">Confidence: High · Review: Not needed ·
+     Checks: W5; W6; W8</p>
+  <ul><li>W5: Elena Ruiz last verified 2025-01-15; re-verify.</li><li>W6: Assessment Director Elena Ruiz is filed under Maple Grove High School, but the title is district-level.</li><li>W8: Budget / Board Action on 2026-02-04 (Board Agenda, High quality, High match): Board agenda includes proposed adoption of a new assessment platform for FY27. </li></ul>
+</section>
+</body></html>

@@ -1,0 +1,5 @@
+order_id,opportunity_id,order_status,created_at,product_summary,fulfillment_region
+ORD-7001,OPP-001,Pending PO,2026-02-06,Assessment licenses,Central
+ORD-7002,OPP-005,In Progress,2026-02-05,Standard implementation package,West
+ORD-7003,OPP-005,In Progress,2026-02-06,Standard implementation package,West
+ORD-7004,OPP-006,Pending Review,2026-02-05,Assessment package,Central

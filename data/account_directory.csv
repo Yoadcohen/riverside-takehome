@@ -1,0 +1,5 @@
+district_id,district_name,school_id,school_name,contact_name,title,contact_email,last_verified_date
+D-001,Maple Grove Public Schools,S-101,Maple Grove High School,Elena Ruiz,Assessment Director,elena.ruiz@example.org,2025-01-15
+D-002,Pine Ridge Unified School District,S-201,Pine Ridge Middle School,Marcus Lee,Superintendent,marcus.lee@example.org,2024-04-01
+D-003,Westfield School District,S-301,Westfield Intermediate School,Sarah Kim,Director of Special Education,sarah.kim@example.org,2025-09-02
+D-004,Lakeview School District,S-401,Lakeview Elementary School,Jamal Ortiz,Chief Academic Officer,jamal.ortiz@example.org,2025-02-10

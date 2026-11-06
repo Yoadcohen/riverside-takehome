@@ -1,0 +1,29 @@
+{
+  "_about": "Hand-written sample of what extract_notes.py should return. Used only to test the rules. It is not real AI output; the real output is ai_cache.json.",
+  "results": {
+    "OPP-001": {
+      "note_text": "Buyer confirmed three assessment licenses. PO expected by 2026-02-15. Services kickoff requested for 2026-03-15. No special implementation requirements noted.",
+      "facts": {"approved_discount_pct": null, "products": [{"name": "assessment licenses", "evidence": "Buyer confirmed three assessment licenses."}], "billing_hint": null, "asks_to_start_fulfillment": false}
+    },
+    "OPP-002": {
+      "note_text": "CFO approved an 18% discount. The quote currently shows 25%. Buyer wants implementation to begin March 1.",
+      "facts": {"approved_discount_pct": 18, "approved_discount_evidence": "CFO approved an 18% discount.", "products": [], "billing_hint": null, "asks_to_start_fulfillment": false}
+    },
+    "OPP-003": {
+      "note_text": "Contract is with the district for signature. Sales expects a decision next week. Please start fulfillment planning.",
+      "facts": {"approved_discount_pct": null, "products": [], "billing_hint": null, "asks_to_start_fulfillment": true, "asks_to_start_fulfillment_evidence": "Please start fulfillment planning."}
+    },
+    "OPP-004": {
+      "note_text": "Customer confirmed purchase. Invoice should go to the district finance office. Implementation requested February 20.",
+      "facts": {"approved_discount_pct": null, "products": [], "billing_hint": "district finance office", "billing_hint_evidence": "Invoice should go to the district finance office.", "asks_to_start_fulfillment": false}
+    },
+    "OPP-005": {
+      "note_text": "Customer signed. Please create the order and use the standard implementation package. A prior order may already have been started by Deal Operations.",
+      "facts": {"approved_discount_pct": null, "products": [{"name": "standard implementation package", "evidence": "Please create the order and use the standard implementation package."}], "billing_hint": null, "asks_to_start_fulfillment": true, "asks_to_start_fulfillment_evidence": "Please create the order and use the standard implementation package."}
+    },
+    "OPP-006": {
+      "note_text": "Customer signed for the assessment package and intervention kit SKU IK-2. Please confirm whether the intervention kit requires a separate fulfillment step.",
+      "facts": {"approved_discount_pct": null, "products": [{"name": "assessment package", "evidence": "Customer signed for the assessment package and intervention kit SKU IK-2."}, {"name": "intervention kit SKU IK-2", "evidence": "Customer signed for the assessment package and intervention kit SKU IK-2."}], "billing_hint": null, "asks_to_start_fulfillment": false}
+    }
+  }
+}

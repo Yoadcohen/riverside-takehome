@@ -1,0 +1,97 @@
+{
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "2",
+  "results": {
+    "OPP-001": {
+      "note_text": "Buyer confirmed three assessment licenses. PO expected by 2026-02-15. Services kickoff requested for 2026-03-15. No special implementation requirements noted.",
+      "facts": {
+        "approved_discount_pct": null,
+        "approved_discount_evidence": null,
+        "products": [
+          {
+            "name": "assessment licenses",
+            "evidence": "Buyer confirmed three assessment licenses."
+          }
+        ],
+        "billing_hint": null,
+        "billing_hint_evidence": null,
+        "asks_to_start_fulfillment": false,
+        "asks_to_start_fulfillment_evidence": null
+      }
+    },
+    "OPP-002": {
+      "note_text": "CFO approved an 18% discount. The quote currently shows 25%. Buyer wants implementation to begin March 1.",
+      "facts": {
+        "approved_discount_pct": 18,
+        "approved_discount_evidence": "CFO approved an 18% discount.",
+        "products": [],
+        "billing_hint": null,
+        "billing_hint_evidence": null,
+        "asks_to_start_fulfillment": false,
+        "asks_to_start_fulfillment_evidence": null
+      }
+    },
+    "OPP-003": {
+      "note_text": "Contract is with the district for signature. Sales expects a decision next week. Please start fulfillment planning.",
+      "facts": {
+        "approved_discount_pct": null,
+        "approved_discount_evidence": null,
+        "products": [],
+        "billing_hint": null,
+        "billing_hint_evidence": null,
+        "asks_to_start_fulfillment": true,
+        "asks_to_start_fulfillment_evidence": "Please start fulfillment planning."
+      }
+    },
+    "OPP-004": {
+      "note_text": "Customer confirmed purchase. Invoice should go to the district finance office. Implementation requested February 20.",
+      "facts": {
+        "approved_discount_pct": null,
+        "approved_discount_evidence": null,
+        "products": [],
+        "billing_hint": "district finance office",
+        "billing_hint_evidence": "Invoice should go to the district finance office.",
+        "asks_to_start_fulfillment": false,
+        "asks_to_start_fulfillment_evidence": null
+      }
+    },
+    "OPP-005": {
+      "note_text": "Customer signed. Please create the order and use the standard implementation package. A prior order may already have been started by Deal Operations.",
+      "facts": {
+        "approved_discount_pct": null,
+        "approved_discount_evidence": null,
+        "products": [
+          {
+            "name": "standard implementation package",
+            "evidence": "use the standard implementation package"
+          }
+        ],
+        "billing_hint": null,
+        "billing_hint_evidence": null,
+        "asks_to_start_fulfillment": true,
+        "asks_to_start_fulfillment_evidence": "Please create the order"
+      }
+    },
+    "OPP-006": {
+      "note_text": "Customer signed for the assessment package and intervention kit SKU IK-2. Please confirm whether the intervention kit requires a separate fulfillment step.",
+      "facts": {
+        "approved_discount_pct": null,
+        "approved_discount_evidence": null,
+        "products": [
+          {
+            "name": "assessment package",
+            "evidence": "assessment package"
+          },
+          {
+            "name": "intervention kit SKU IK-2",
+            "evidence": "intervention kit SKU IK-2"
+          }
+        ],
+        "billing_hint": null,
+        "billing_hint_evidence": null,
+        "asks_to_start_fulfillment": false,
+        "asks_to_start_fulfillment_evidence": null
+      }
+    }
+  }
+}

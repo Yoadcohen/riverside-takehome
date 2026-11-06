@@ -1,0 +1,7 @@
+opportunity_id,account_name,stage,amount,close_date,quote_id,quote_expiration,discount_pct,approval_status,billing_entity,implementation_start_date,owner,last_updated
+OPP-001,Maple Grove Public Schools,Closed Won,48500,2026-02-04,Q-1001,2026-02-28,10,Approved,Maple Grove Public Schools,2026-03-15,Ana Patel,2026-02-05
+OPP-002,Pine Ridge Unified School District,Closed Won,72000,2026-02-02,Q-1002,2026-02-10,25,Pending,Pine Ridge Unified School District,2026-03-01,Marcus Lee,2026-02-03
+OPP-003,Westfield School District,Contract Sent,61000,2026-02-01,Q-1003,2026-03-01,0,Approved,Westfield School District,2026-04-01,Sarah Kim,2026-02-01
+OPP-004,Lakeview School District,Closed Won,38000,2026-01-29,Q-1004,2026-02-05,5,Approved,,2026-02-20,Jordan Smith,2026-02-06
+OPP-005,North Valley School District,Closed Won,91000,2026-01-25,Q-1005,2026-02-15,8,Approved,North Valley School District,2026-03-10,Jordan Smith,2026-02-05
+OPP-006,Cedar Falls Public Schools,Closed Won,45000,2026-02-03,Q-1006,2026-03-01,0,Approved,Cedar Falls Public Schools,2026-03-20,Ana Patel,2026-02-04
